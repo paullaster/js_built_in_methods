@@ -59,3 +59,6 @@ console.log(unescaped_uri);
  *  
  * parseInt(); returns an integer value.
  */
+let str_num = '56';
+let num = parseInt (str_num, 10);
+console.log(num);
