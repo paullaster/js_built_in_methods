@@ -40,4 +40,9 @@ console.log(decodedUri);
  * 3.
  * escape()
  * unescape()
+ * ... usage not very encouraged!
  */
+
+const uri3 = 'https://www.example.com/submit?name=maaike van putten';
+const escaped_uri = escape(uri3);
+console.log(escaped_uri);
