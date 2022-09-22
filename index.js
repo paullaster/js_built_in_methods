@@ -9,11 +9,11 @@
  * 1.
  * Encoding and decoding URIs
  * Query parameters
- * decodeUri()
- * encodeUri()
+ * decodeURI()
+ * encodeURI()
  */
 const uri = 'http://linkedin.com/in/paul laster/';
 const encodeUri = encodeURI(uri);
 console.log(encodeUri);
-const decodeUri = decodeUri(encodeUri);
+const decodeUri = decodeURI(encodeUri);
 console.log(decodeUri);
