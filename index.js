@@ -62,8 +62,6 @@ const unescaped_uri = unescape(escaped_uri);
 let str_num = '56';
 let num = parseInt (str_num);
 //console.log(num + '  is a   ' + typeof num);
-
-
 /**
  * 5.
  * parseFloat(); returns a floating point value.
