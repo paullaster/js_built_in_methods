@@ -5,3 +5,10 @@
  * time, and comply with various best
  * practices for developing solutions
  */
+/**
+ * 1.
+ * Encoding and decoding URIs
+ * Query parameters
+ * decodeUri()
+ * encodeUri()
+ */
