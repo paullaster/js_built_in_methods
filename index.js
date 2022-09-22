@@ -15,3 +15,5 @@
 const uri = 'http://linkedin.com/in/paul laster/';
 const encodeUri = encodeURI(uri);
 console.log(encodeUri);
+const decodeUri = decodeUri(encodeUri);
+console.log(decodeUri);
