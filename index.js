@@ -48,3 +48,14 @@ const escaped_uri = escape(uri3);
 console.log(escaped_uri);
 const unescaped_uri = unescape(escaped_uri);
 console.log(unescaped_uri);
+
+
+/**
+ * 4.
+ * parse numbers
+ * all inputs from users; from html forms or
+ * console are in strings and must be converted 
+ * to numbers incase a mathematical operation is to be performed.
+ *  
+ * parseInt(); returns an integer value.
+ */
