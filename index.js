@@ -74,4 +74,4 @@ let num2 = 9;
 let floating_num = parseFloat (num2);
 let num_float = parseFloat (str_float);
 console.log(num_float + ' is a ' + typeof num_float);
-console.log(floating_num + ' is a ' + floating_num);
+console.log(floating_num);
