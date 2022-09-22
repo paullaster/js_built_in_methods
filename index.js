@@ -34,3 +34,10 @@ const encodedUri = encodeURIComponent(uri2);
 console.log(encodedUri); 
 const decodedUri = decodeURIComponent(encodedUri);
 console.log(decodedUri); 
+
+
+/**
+ * 3.
+ * escape()
+ * unescape()
+ */
