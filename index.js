@@ -31,9 +31,9 @@ const decodeUri = decodeURI(encodeUri);
  */
 const uri2 = 'https://www.example.com/submit?name=maaike van putten';
 const encodedUri = encodeURIComponent(uri2);
-console.log(encodedUri); 
+//console.log(encodedUri); 
 const decodedUri = decodeURIComponent(encodedUri);
-console.log(decodedUri); 
+//console.log(decodedUri); 
 
 
 /**
@@ -46,3 +46,5 @@ console.log(decodedUri);
 const uri3 = 'https://www.example.com/submit?name=maaike van putten';
 const escaped_uri = escape(uri3);
 console.log(escaped_uri);
+const unescaped_uri = unescape(escaped_uri);
+console.log(unescaped_uri);
