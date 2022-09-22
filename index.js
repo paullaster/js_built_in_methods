@@ -12,3 +12,6 @@
  * decodeUri()
  * encodeUri()
  */
+const uri = 'http://linkedin.com/in/paul laster/';
+const encodeUri = encodeURI(uri);
+console.log(encodeUri);
