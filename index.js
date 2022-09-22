@@ -31,7 +31,7 @@ const decodeUri = decodeURI(encodeUri);
  */
 const uri2 = 'https://www.example.com/submit?name=maaike van putten';
 const encodedUri = encodeURIComponent(uri2);
-console.log(encodedUri); 
+//console.log(encodedUri); 
 const decodedUri = decodeURIComponent(encodedUri);
 //console.log(decodedUri); 
 
@@ -45,9 +45,9 @@ const decodedUri = decodeURIComponent(encodedUri);
 
 const uri3 = 'https://www.example.com/submit?name=maaike van putten';
 const escaped_uri = escape(uri3);
-console.log(escaped_uri);
+//console.log(escaped_uri);
 const unescaped_uri = unescape(escaped_uri);
-console.log(unescaped_uri);
+//console.log(unescaped_uri);
 
 
 /**
@@ -60,5 +60,5 @@ console.log(unescaped_uri);
  * parseInt(); returns an integer value.
  */
 let str_num = '56';
-let num = parseInt (str_num, 10);
-console.log(num);
+let num = parseInt (str_num);
+console.log(num + '  is a   ' + typeof num);
