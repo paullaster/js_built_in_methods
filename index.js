@@ -32,3 +32,5 @@ const decodeUri = decodeURI(encodeUri);
 const uri2 = 'https://www.example.com/submit?name=maaike van putten';
 const encodedUri = encodeURIComponent(uri2);
 console.log(encodedUri); 
+const decodedUri = decodeURIComponent(encodedUri);
+console.log(decodedUri); 
