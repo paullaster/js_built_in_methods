@@ -69,6 +69,9 @@ let num = parseInt (str_num);
  * parseFloat(); returns a floating point value.
  * 
  */
-let str_float = '5.67';
+let str_float = '5.6.7';
+let num2 = 9;
+let floating_num = parseFloat (num2);
 let num_float = parseFloat (str_float);
 console.log(num_float + ' is a ' + typeof num_float);
+console.log(floating_num + ' is a ' + floating_num);
