@@ -17,9 +17,9 @@
  */
 const uri = 'http://linkedin.com/in/paul laster/';
 const encodeUri = encodeURI(uri);
-console.log(encodeUri);
+//console.log(encodeUri);
 const decodeUri = decodeURI(encodeUri);
-console.log(decodeUri);
+//console.log(decodeUri);
 
 /**
  * 2.
@@ -29,6 +29,6 @@ console.log(decodeUri);
  * strings with special characters with special 
  * meanings like '=' or '&'
  */
-const uri2 = '"https://www.example.com/submit?name=maaike van putten';
-const encodedUri = encodeUriComponent(uri2);
+const uri2 = 'https://www.example.com/submit?name=maaike van putten';
+const encodedUri = encodeURIComponent(uri2);
 console.log(encodedUri); 
