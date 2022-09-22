@@ -29,3 +29,6 @@ console.log(decodeUri);
  * strings with special characters with special 
  * meanings like '=' or '&'
  */
+const uri2 = '"https://www.example.com/submit?name=maaike van putten';
+const encodedUri = encodeUriComponent(uri2);
+console.log(encodedUri); 
