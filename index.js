@@ -11,6 +11,9 @@
  * Query parameters
  * decodeURI()
  * encodeURI()
+ * these methods do not take special
+ * character into account
+ * they are useful when fixin broken URIs
  */
 const uri = 'http://linkedin.com/in/paul laster/';
 const encodeUri = encodeURI(uri);
