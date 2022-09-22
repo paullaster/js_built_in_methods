@@ -20,3 +20,12 @@ const encodeUri = encodeURI(uri);
 console.log(encodeUri);
 const decodeUri = decodeURI(encodeUri);
 console.log(decodeUri);
+
+/**
+ * 2.
+ * decodeUriComponent()
+ * encodeUriComponent()
+ * These are very useful when decoding/encoding
+ * strings with special characters with special 
+ * meanings like '=' or '&'
+ */
